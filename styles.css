@@ -152,17 +152,6 @@ header .contact-info .btn {
     justify-content: space-around;
     margin-top: 20px;
 }
-/* 
-.chefs .chef img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-} */
-
-footer {
-    background: #000;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
+footer img {
+    width: 100%;
 }
