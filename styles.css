@@ -6,12 +6,15 @@ body {
 }
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+   /* width: 100%; */
+   margin: 20px 150px;
 }
 
 header {
-    background: #000;
+    /* background: #000; */
+    background-image: url('./assets/imgs/hero\ image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     padding: 20px 0;
 }
@@ -54,10 +57,21 @@ header .contact-info .btn {
 }
 
 .hero {
-    background: url('hero.jpg') no-repeat center center/cover;
-    color: #fff;
-    padding: 100px 0;
+    color: #ff6600;
+    margin-top: 300px;
+    margin-bottom: 200px;
     text-align: center;
+    width: 900px;
+    font-size: 35px;
+    font-family: Tinos;
+    line-height: 1.5;
+    p{
+        font-size: 18px;
+        color: #fff;
+    }
+    span{
+        font-size: 80px;
+    }
 }
 
 .hero .btn {
@@ -66,6 +80,7 @@ header .contact-info .btn {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 14px;
 }
 
 .about {
