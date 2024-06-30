@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .contact-info {
+    float: right;
+}
+
+header .contact-info .btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .btn {
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.about .stat {
+    text-align: center;
+}
+
+.menu {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu .dishes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu .dish img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.gallery .gallery-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gallery .gallery-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.chefs {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.chefs .chefs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.chefs .chef img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
