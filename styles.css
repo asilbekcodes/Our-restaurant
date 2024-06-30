@@ -19,21 +19,16 @@ header {
     padding: 20px 0;
 }
 
-header .logo {
-    float: left;
+header .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-header nav {
-    float: left;
-    margin-left: 20px;
+nav{
+    display: flex;
+    align-items: center;
+    gap: 100px;
 }
-
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
 header nav ul li {
     display: inline;
     margin-right: 20px;
@@ -42,10 +37,6 @@ header nav ul li {
 header nav ul li a {
     color: #fff;
     text-decoration: none;
-}
-
-header .contact-info {
-    float: right;
 }
 
 header .contact-info .btn {
