@@ -134,9 +134,17 @@ header .contact-info .btn {
 }
 
 .chefs {
-    background: #f4f4f4;
+    background: #fff;
     padding: 50px 0;
     text-align: center;
+}
+.chefs p{
+    font-family: Tinos;
+    font-size: 54px;
+
+}
+.chefs p span{
+    color: #ff6600;
 }
 
 .chefs .chefs {
@@ -144,13 +152,13 @@ header .contact-info .btn {
     justify-content: space-around;
     margin-top: 20px;
 }
-
+/* 
 .chefs .chef img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-}
+} */
 
 footer {
     background: #000;
